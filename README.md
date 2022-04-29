@@ -20,8 +20,9 @@
 
 ### Check if 3 are the same
 1. You can win in 8 different ways: 3 columns, 3 rows, 2 diagonals
-2. Add specific classes for each of the 8 ways
-3. Count the classes and the one that gets to 3 first win
+2. Write down all 8 combinations
+3. Add specific classes for each of the 8 ways
+4. Count the classes and the one that gets to 3 first win
 
 
 
