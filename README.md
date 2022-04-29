@@ -18,6 +18,8 @@
 3. Check if the click is odd or even, if odd content will be 'X', otherwise content will be 'O'
 
 ### Check if 3 are the same
+1. You can win in 8 different ways: 3 columns, 3 rows, 2 diagonals
+
 
 
 
