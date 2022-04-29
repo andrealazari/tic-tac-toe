@@ -12,7 +12,12 @@
 3. Add content through an addEventListener function to check functionality
 4. CSS Grid to create 3 columns
 
-### 
+### Adding second player
+1. At each click change the content that it prints on the screen
+2. Add a counter to count each click.
+3. Check if the click is odd or even, if odd content will be 'X', otherwise content will be 'O'
+
+### Check if 3 are the same
 
 
 
