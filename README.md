@@ -30,4 +30,6 @@ This is a basic tic tac toe game!
 - CSS
 
 ## Lessons Learned
+- Solving the problem with basic logic bedore trying to make it clean code!
+- New CSS properties
 
