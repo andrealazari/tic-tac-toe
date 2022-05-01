@@ -14,6 +14,11 @@ var player2Counter = 0
 var tieGamesCounter = 0
 var isGameOver = false
 
+//sounds
+var luigiSound = new Audio('./sounds/luigi_07_Im-a Luigi_number_one.wav')
+var marioSound = new Audio('./sounds/mario-itsme.wav')
+var tieSound = new Audio('./sounds/smb_bowserfalls.wav')
+
 //activate clicks
 boardSelection.addEventListener('click', runGame)
 resetBtn.addEventListener('click', resetAll)
@@ -42,6 +47,7 @@ function runGame(event) {
 function checkWinner(){
     var player = ['player1', 'player2']
     var carachter = ['mario', 'luigi']
+    var sounds = [marioSound, luigiSound]
     for(let i = 0 ; i < player.length; i++){
         var winner = `${carachter[i].toUpperCase()} is the winner!`
         var box1 = document.querySelector('.box1').classList.contains(player[i])
@@ -56,33 +62,41 @@ function checkWinner(){
 
         if(box1 && box2 && box3) {
             resultDisplay.textContent = winner
+            sounds[i].play()
             isGameOver = true
             break
         } else if(box4 && box5 && box6){
             resultDisplay.textContent = winner
+            sounds[i].play()
             isGameOver = true
             break
         } else if(box7 && box8 && box9){
             resultDisplay.textContent = winner
+            sounds[i].play()
             isGameOver = true
             break
         } else if(box1 && box4 && box7){
             resultDisplay.textContent = winner
+            sounds[i].play()
             isGameOver = true
             break
         } else if(box2 && box5 && box8){
             resultDisplay.textContent = winner
+            sounds[i].play()
             isGameOver = true
             break
         } else if(box3 && box6 && box9){
             resultDisplay.textContent = winner
+            sounds[i].play()
             isGameOver = true
         } else if(box1 && box5 && box9){
             resultDisplay.textContent = winner
+            sounds[i].play()
             isGameOver = true
             break
         } else if(box3 && box5 && box7){
             resultDisplay.textContent = winner
+            sounds[i].play()
             isGameOver = true
             break
         }
@@ -94,6 +108,7 @@ function drawGame() {
         if(!isGameOver){
         tieGamesCounter++
         resultDisplay.textContent = `It's a tie!`
+        tieSound.play()
         }
     }
 }

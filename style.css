@@ -33,7 +33,7 @@ body {
 
 .p1-score,  
 .p2-score {
-    padding: 15px 0;
+    padding-top: 15px;
     color: #f5e7aa;
 }
 
@@ -54,8 +54,7 @@ body {
 }
 
 .player1 {
-    background-color: #cf2f2f;
-    transition: 0.5ms;
+    background-color: #7d4b4b;
     font-size: 5rem;
 }
 
@@ -64,8 +63,7 @@ body {
 }
 
 .player2 {
-    background-color: #4a8442;
-    transition: 0.5ms;
+    background-color: #526651;
     font-size: 5rem;
 }
 
@@ -74,32 +72,35 @@ body {
 }
 
 .result-display {
-    font-size: 3rem;
-    color: rgb(42, 39, 39);
-    margin-bottom: 30px;
-    font-size: 20px;
     background-color: #f5e7aa;
     height: 40px;
+} 
+
+.result{
+    color: rgb(42, 39, 39);
+    margin: 0 auto 30px auto;
+    font-size: 20px;
     padding: 10px 0;
-}
+    letter-spacing: 2px;
+} 
 
 .display1 {
     width: 50px;
     height: 50px;
     font-size: 3rem;
-    background-color: #cf2f2f;
+    background-color: #7d4b4b;
 }
 
 .display2 {
     width: 50px;
     height: 50px;
     font-size: 3rem;
-    background-color: #4a8442;
+    background-color: #526651;
     
 }
 
 button {
-    margin: 30px 10px;
+    margin: 10px 10px;
     padding: 10px 20px;
     background-color: #f5e7aa;
     border: none;
