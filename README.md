@@ -1,8 +1,8 @@
 # Tic Tac Toe
-[Click here to play the game](https://andrealazari.github.io/tic-tac-toe/)
+
 ## Summary of project
-
-
+This is a basic tic tac toe game!
+[Play here](https://andrealazari.github.io/tic-tac-toe/)
 
 ## Plan for solving the problem
 
@@ -22,11 +22,12 @@
 1. You can win in 8 different ways: 3 columns, 3 rows, 2 diagonals
 2. Write down all 8 combinations
 3. Add specific classes for each of the 8 ways
-4. Count the classes and the one that gets to 3 first win
-
-
-
-
+4. Count the classes and the one that gets to 3 first win!
 
 ## Cool tech used
+- Javascript
+- HTML
+- CSS
+
 ## Lessons Learned
+
