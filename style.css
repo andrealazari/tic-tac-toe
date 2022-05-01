@@ -118,3 +118,14 @@ footer {
     font-size: 10px;
     /* text-shadow: 1px 1px #f5e7aa; */
 }
+
+@media only screen and (max-width: 600px) { 
+    .header {
+        font-size: 20px;
+    }
+
+    .result {
+        font-size: 13px;
+        padding-top: 15px;
+    }
+}
