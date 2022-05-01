@@ -1,16 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Raleway:wght@100;200;300;400;500;600;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.game {
+body {
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    background: url('./images/background1.jpg') no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+}
+
+.header {
+    margin: 40px 0;
+    color: #f5e7aa;
+    text-shadow: 3px 3px black;
+    font-size: 25px;
+}
+
+.display-scores {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    margin: 30px 0 10px 0;
+    font-size: 30px;
+}
+
+.p1-score,  
+.p2-score {
+    padding: 15px 0;
+    color: #f5e7aa;
+}
+
+.board {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    width: 300px;
-    height: 300px;
+    margin: 0 auto;
+    padding: 10px 0;
+    width: fit-content;
 }
 
 .individual-box {
-    border: 1px solid black;
+    border: 2px solid #f5e7aa;
+    height: 100px;
+    width: 100px;
+    margin: 3px;
+    border-radius: 6px;
 }
+
+.player1 {
+    background-color: #cf2f2f;
+    transition: 0.5ms;
+    font-size: 5rem;
+}
+
+.player1::before {
+    content: url('./images/super-mario.svg')
+}
+
+.player2 {
+    background-color: #4a8442;
+    transition: 0.5ms;
+    font-size: 5rem;
+}
+
+.player2::before {
+    content: url('./images/luigi.svg');
+}
+
+.result-display {
+    font-size: 3rem;
+    color: rgb(42, 39, 39);
+    margin-bottom: 30px;
+    font-size: 20px;
+    background-color: #f5e7aa;
+    height: 40px;
+    padding: 10px 0;
+}
+
+.display1 {
+    width: 50px;
+    height: 50px;
+    font-size: 3rem;
+    background-color: #cf2f2f;
+}
+
+.display2 {
+    width: 50px;
+    height: 50px;
+    font-size: 3rem;
+    background-color: #4a8442;
+    
+}
+
+button {
+    margin: 30px 10px;
+    padding: 10px 20px;
+    background-color: #f5e7aa;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 2px 2px black;
+    font-size: 10px;
+    font-family: 'Press Start 2P', cursive;
+}
+

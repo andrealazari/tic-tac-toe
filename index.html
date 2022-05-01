@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tic Tac Toe</title>
     <link rel="stylesheet" href="./style.css">
-    <script src="./main.js"></script>
+    <script src="./main.js" defer></script>
 </head>
 <body>
     <header class="header">
@@ -14,21 +14,36 @@
     </header>
 
     <main class="main-container">
-        <section class="game">
-            <div class="individual-box"></div>
-            <div class="individual-box"></div>
-            <div class="individual-box"></div>
-            <div class="individual-box"></div>
-            <div class="individual-box"></div>
-            <div class="individual-box"></div>
-            <div class="individual-box"></div>
-            <div class="individual-box"></div>
-            <div class="individual-box"></div>
+        <section class="display-scores">
+            <section class="individual-scores">
+                <div class="display1"><img src="./images/super-mario.svg" alt=""></div>
+                <p class="p1-score">0</p>
+            </section>
+            <section class="individual-scores">
+                <div class="display2"><img src="./images/luigi.svg" alt=""></div>
+                <p class="p2-score">0</p>
+            </section>
         </section>
+        <section class="result-display">
+            <p class="result"></p>
+        </section>
+        <section class="board">
+            <div class="individual-box box1"></div>
+            <div class="individual-box box2"></div>
+            <div class="individual-box box3"></div>
+            <div class="individual-box box4"></div>
+            <div class="individual-box box5"></div>
+            <div class="individual-box box6"></div>
+            <div class="individual-box box7"></div>
+            <div class="individual-box box8"></div>
+            <div class="individual-box box9"></div>
+        </section>
+        <button class="reset-btn">New Game</button>
+        <button class="reset-board">Reset Board</button>
     </main>
 
     <footer>
-        
+
     </footer>
     
 </body>
