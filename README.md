@@ -2,8 +2,9 @@
 
 ## Summary of project
 
-This is a basic tic tac toe game!
-[Play here](https://andrealazari.github.io/tic-tac-toe/)
+This is a tic tac toe game with a Mario theme!
+You can [click here](https://andrealazari.github.io/tic-tac-toe/) to play it!
+Have fun :)
 
 ## Plan for solving the problem
 
@@ -27,6 +28,11 @@ This is a basic tic tac toe game!
 2. Write down all 8 combinations
 3. Add specific classes for each of the 8 ways
 4. Count the classes and the one that gets to 3 first win!
+
+### Reset functions
+
+1. Create a function to reset the board
+2. Create a function to reset the whole game (including the scores)
 
 ## Cool tech used
 

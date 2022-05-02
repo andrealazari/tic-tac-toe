@@ -17,11 +17,11 @@
     <main class="main-container">
         <section class="display-scores">
             <section class="individual-scores">
-                <div class="display1"><img src="./images/super-mario.svg" alt=""></div>
+                <div class="display1"></div>
                 <p class="p1-score">0</p>
             </section>
             <section class="individual-scores">
-                <div class="display2"><img src="./images/luigi.svg" alt=""></div>
+                <div class="display2"></div>
                 <p class="p2-score">0</p>
             </section>
         </section>
@@ -42,6 +42,17 @@
         <button class="reset-btn">New Game</button>
         <button class="reset-board">Reset Board</button>
     </main>
+
+    <div class="modal" id="myModal">
+        <section class="modal-content">
+            <h1>Choose your player!</h1>
+            <div class="input">
+                <input type="radio" name="character" id="mario" checked="checked"><img src="./images/super-mario.svg" alt="">
+                 <input type="radio" name="character" id="luigi"><img src="./images/luigi.svg" alt="">
+            </div>
+            <button class="modal-btn">Let's play!</button>
+        </section>
+    </div>
 
     <footer>
         <p>Created by Andrea Lazari, 2022</p>
