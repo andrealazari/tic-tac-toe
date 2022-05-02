@@ -37,15 +37,18 @@ modal.addEventListener('click', function(event) {
             if(characterName === 'luigi') {
                 character = ['luigi', 'mario']
                 sounds = [luigiSound, marioSound]
-                p1Display.classList.add('luigi')
-                p2Display.classList.add('mario')
                 p1Display.classList.remove('mario')
                 p2Display.classList.remove('luigi')
-            } else {
-                p1Display.classList.add('mario')
-                p2Display.classList.add('luigi')
+                p1Display.classList.add('luigi')
+                p2Display.classList.add('mario')
+                
+            } else if(characterName === 'mario') {
+                character = ['mario', 'luigi']
                 p1Display.classList.remove('luigi')
                 p2Display.classList.remove('mario')
+                p1Display.classList.add('mario')
+                p2Display.classList.add('luigi')
+                
             }
         }
     }
