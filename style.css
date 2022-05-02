@@ -123,17 +123,6 @@ footer {
     /* text-shadow: 1px 1px #f5e7aa; */
 }
 
-@media only screen and (max-width: 600px) { 
-    .header {
-        font-size: 20px;
-    }
-
-    .result {
-        font-size: 13px;
-        padding-top: 15px;
-    }
-}
-
 .modal {
     /* width: 500px;
     height: 300px; */
@@ -167,4 +156,19 @@ footer {
     width: 50%;
     box-shadow: 2px 2px 2px 2px black;
     margin: 30px auto;
+}
+
+@media only screen and (max-width: 600px) { 
+    .header {
+        font-size: 20px;
+    }
+
+    .result {
+        font-size: 13px;
+        padding-top: 15px;
+    }
+
+    .modal-content {
+        min-width: 300px;
+    }
 }
