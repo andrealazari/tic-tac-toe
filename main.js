@@ -44,6 +44,7 @@ modal.addEventListener('click', function(event) {
                 
             } else if(characterName === 'mario') {
                 character = ['mario', 'luigi']
+                sounds = [marioSound, luigiSound]
                 p1Display.classList.remove('luigi')
                 p2Display.classList.remove('mario')
                 p1Display.classList.add('mario')
